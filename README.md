@@ -1,12 +1,20 @@
 # JavaScriptPlayground
-Small project to test JavaScript locally. There's probably a better way to do this.
+Small project to test JavaScript locally.
 
 # How to use
-To run the webserver, you'll need Python.
+There are two ways to use this project.
+
+1. Open index.html in your browser
+2. Run the web server.
+
+This web server is a CORS work-around. It allows you to fetch local files with
+XmlHttpRequest.
+
+To run the webserver, you'll need Python 3.
 
 ```sh
 $> python servery.py
 Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
 ```
 
-This webserver allows all origins, so it gets around CORS.
+That's it!
